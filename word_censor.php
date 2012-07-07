@@ -3,7 +3,7 @@ $find = array('jawad', 'kako', 'bull');
 $replace = array('J***d', 'K**o', 'B**l');
 
 if (isset($_POST['user_input']) && !empty($_POST['user_input'])) {
-	$user_input = $_POST['user_input'];
+	$user_input = htmlentities($_POST['user_input']);
 	$user_input_lc = strtolower($user_input);
 	$user_input_new = str_replace($find, $replace, $user_input_lc);
 

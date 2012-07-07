@@ -12,7 +12,7 @@ $calling_dist = substr_count(dirname($_SERVER['SCRIPT_FILENAME']), DIRECTORY_SEP
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">
-			<a class="brand" href="#"> <strong>blink</strong> </a>
+			<a class="brand" href="<?=str_repeat('../', $calling_dist - $include_dist + 1) ?>learning/index.php"> <strong>blink</strong> </a>
 			<div class = "pull-right">
 				<ul class="nav">
 					<li class="active">
