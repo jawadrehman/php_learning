@@ -6,6 +6,8 @@ $calling_dist = substr_count(dirname($_SERVER['SCRIPT_FILENAME']), DIRECTORY_SEP
 
 	<link rel="stylesheet" type="text/css" href="<?=str_repeat('../', $calling_dist - $include_dist + 1) ?>learning/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="<?=str_repeat('../', $calling_dist - $include_dist + 1) ?>learning/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="<?=str_repeat('../', $calling_dist - $include_dist + 1) ?>learning/bootstrap/style.css">
+
 	<title>blink - <?php echo $title?></title>;
 </head>
 

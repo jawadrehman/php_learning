@@ -1,8 +1,8 @@
 body{
-	background-color: gray;
+	
 }
 
-#header{
+.header{
 	background-image: #595c5a;
 	background-image: -webkit-linear-gradient(bottom, #888a85 0%, #555753 50%, #2e3436 100%);
 	background-image: -moz-linear-gradient(bottom, #888a85 0%, #555753 50%, #2e3436 100%);
@@ -13,7 +13,7 @@ body{
 }
 
 
-#nav{
+.nav2{
 	background-image: #d4d6d0;
 	background-image: -webkit-linear-gradient(bottom, #eeeeec 0%, #d3d7cf 50%, #babdb6 100%);
 	background-image: -moz-linear-gradient(bottom, #eeeeec 0%, #d3d7cf 50%, #babdb6 100%);
