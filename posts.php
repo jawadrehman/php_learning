@@ -13,12 +13,13 @@ require_once 'header.inc.php';
 	</div>
 
 	<ul>
-		<li> <a href = "find_replace.php"> Find Replace App </a></li>
+		<li > <a href = "find_replace.php"> Find Replace App </a></li>
 		
 		<li> <a href = "word_censor.php"> Word Censor App </a></li>
 		
 		<li> <a href = "server"> Server App </a></li>
 		
+		<li> <a href = "sessions/set.php"> Session App </a></li>
 		
 	</ul>
 </div>

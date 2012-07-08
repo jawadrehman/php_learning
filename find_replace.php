@@ -45,12 +45,12 @@ if (isset($_POST['user_input'], $_POST['find'], $_POST['replace'])) {
 
 		<p>
 			Find :-
-			<input type="text" name = "find"/>
+			<input type="text" name = "find" class = "search text_field"/>
 		</p>
 
 		<p>
 			Replace :-
-			<input type = "text" name = "replace" />
+			<input type = "text" name = "replace" class = "search text_field" />
 		</p>
 
 		<input class = "btn btn-inverse" type = "submit" value = "Submit"/>
