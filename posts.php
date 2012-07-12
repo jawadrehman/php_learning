@@ -21,5 +21,9 @@ require_once 'header.inc.php';
 		
 		<li> <a href = "sessions/set.php"> Session App </a></li>
 		
+		<li> <a href = "read_write_append/file.php"> Read Write App </a></li>
+		
+		<li> <a href = "list_directory"> List Directory App </a></li>
+		
 	</ul>
 </div>

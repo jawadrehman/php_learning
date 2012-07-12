@@ -1,4 +1,6 @@
 <?php
+
+	require_once '../header.inc.php';
 	$readin = file('names.txt');
 	$readin_count = count($readin);
 	
@@ -6,6 +8,13 @@
 	
 	//echo 'The readin count is '.$readin_count;
 	
+?>
+
+
+<div class = "container">
+	
+	
+	<h1><?php
 	foreach ($readin as $fname) {
 		echo trim($fname);
 		
@@ -14,4 +23,7 @@
 			$count++;
 		}
 	}
-?>
+	?></h1>
+	
+	
+</div>

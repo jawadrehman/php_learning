@@ -1,7 +1,8 @@
 <?php
 require_once '../header.inc.php';
 if (isset($_POST['name'])) {
-	$name = $_POST['name'];
+		
+	$name = htmlentities($_POST['name']);
 
 	if (!empty($name)) {
 		$handle = fopen('names.txt', 'a');
